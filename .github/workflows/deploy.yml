@@ -33,4 +33,3 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: 'build/*'
           target: '/home/SanderSita/web/sandersekreve.nl/public_html/'
-
