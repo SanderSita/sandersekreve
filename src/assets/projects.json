@@ -38,7 +38,7 @@
         "name": "Price Checker",
         "technologies": ["NextJS", "NextAuth.js", "NodeJS", "SQL", "Prisma", "TailwindCSS"],
         "description": "(Mee bezig) Ik werk aan een website waar gebruikers de prijzen van producten kunnen bijhouden. Gebruikers kunnen email notificaties ontvangen zodra de prijs hun gekozen product verlaagt.",
-        "url": "",
+        "url": "https://pricetracker.sandersekreve.nl",
         "imgPath": "../assets/pricechecker.png"
     },
     {
