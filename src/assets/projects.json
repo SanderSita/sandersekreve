@@ -58,7 +58,7 @@
     {
         "name": "Lunajoy boutique",
         "technologies": ["WordPress", "PHP"],
-        "description": "Ik heb een webshop gemaakt voor Lunajoy boutique waar handgemaakte sieraden worden verkocht.",
+        "description": "ik heb een webshop gemaakt voor Lunajoy boutique waar handgemaakte sieraden worden verkocht.",
         "url": "https://lunajoyboutique.com",
         "imgPath": "../assets/lunajoy.png"
     }
