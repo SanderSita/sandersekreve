@@ -1,13 +1,13 @@
 import "./App.css";
 import Hallo from "./pages/Hallo";
 import React, { Fragment } from "react";
-import { BrowserRouter as Route, Routes } from "react-router-dom";
 import Introductie from "./pages/Introductie";
 import Apparatuur from "./components/codecomponents/Apparatuur";
 import Werk from "./components/codecomponents/Werk";
 import Persoon from "./components/codecomponents/Persoon";
 import Projecten from "./pages/Projecten";
 import NotFound from "./components/NotFound";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
