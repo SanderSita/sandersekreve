@@ -1,11 +1,11 @@
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { atomDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 export default function Werk() {
-const codeString = 
-`let internships [
+	const codeString = `let internships [
     "OneStepSolutions", // Laravel
-    "Botman Sound & Vision" // WordPress
+    "Botman Sound & Vision", // WordPress
+    "Re:Shark", // Django & Svelte
 ];
 
 let studies = [
@@ -13,8 +13,8 @@ let studies = [
     "HBO Software Engineering" // 2022 - 2026
 ]
 
-// Programming languages (still learning TypeScript)
-let languages = ["HTML", "CSS", "JavaScript", "TypeScript", "Java", "Python", "PHP"];
+// Programming languages
+let languages = ["HTML", "CSS", "JavaScript", "TypeScript", "Java", "Python"];
 
 let frameworks = [
     "React",
@@ -22,18 +22,23 @@ let frameworks = [
     "Next.js", // Still learning...
     "TailwindCSS",
     "Laravel",
-    "Java Spring Boot"
+    "Django"
 ];`;
 
-    const style = {
-        backgroundColor: "black"
-    }
+	const style = {
+		backgroundColor: "black",
+	};
 
-    return (
-        <div className="">
-            <SyntaxHighlighter language="javascript" style={atomDark} showLineNumbers={true} customStyle={style}>
-                {codeString}
-            </SyntaxHighlighter>
-        </div>
-    )
+	return (
+		<div className="">
+			<SyntaxHighlighter
+				language="javascript"
+				style={atomDark}
+				showLineNumbers={true}
+				customStyle={style}
+			>
+				{codeString}
+			</SyntaxHighlighter>
+		</div>
+	);
 }

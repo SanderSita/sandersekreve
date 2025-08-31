@@ -1,9 +1,8 @@
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { atomDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 export default function Apparatuur() {
-const codeString = 
-`let hardware = {
+	const codeString = `let hardware = {
     computer: {
         processor: "Ryzen 2600",
         gpu: "RX 580",
@@ -17,19 +16,24 @@ const codeString =
 }
 
 let software = {
-    IDE: ["vscode", "Intellij"],
-    hosting: ["hostinger"]
+    IDE: ["vscode"],
+    hosting: ["vercel", "hostinger", "github pages"]
 }`;
 
-    const style = {
-        backgroundColor: "black"
-    }
+	const style = {
+		backgroundColor: "black",
+	};
 
-    return (
-        <div className="">
-            <SyntaxHighlighter language="javascript" style={atomDark} showLineNumbers={true} customStyle={style}>
-                {codeString}
-            </SyntaxHighlighter>
-        </div>
-    )
+	return (
+		<div className="">
+			<SyntaxHighlighter
+				language="javascript"
+				style={atomDark}
+				showLineNumbers={true}
+				customStyle={style}
+			>
+				{codeString}
+			</SyntaxHighlighter>
+		</div>
+	);
 }

@@ -1,65 +1,98 @@
 [
-    {
-        "name": "Portfolio",
-        "technologies": ["ReactJS", "TailwindCSS"],
-        "description": "De website waar je nu op zit!",
-        "url": "https://sandersekreve.nl",
-        "imgPath": "../assets/sandersekreve.png"
-    },
-    {
-        "name": "Twatter",
-        "technologies": ["ReactJS", "Firebase", "NodeJS", "Socket.io", "TailwindCSS"],
-        "description": "Ik heb een Twitter/X clone gemaakt voor de lol.",
-        "url": "https://twatter.sandersekreve.nl",
-        "imgPath": "../assets/twatter.png"
-    },
-    {
-        "name": "Sync. Counter",
-        "technologies": ["HTML/CSS/JS", "NodeJS", "Socket.io", "TailwindCSS", "Firebase"],
-        "description": "Simpele counter die gebruikt maakt van socket.io om het aantal bij alle gebruikers live te synchroniseren",
-        "url": "https://count.sandersekreve.nl",
-        "imgPath": "../assets/count.png"
-    },
-    {
-        "name": "HealthSteps",
-        "technologies": ["HTML/CSS/JS", "SQL", "Socket.io"],
-        "description": "Dit is een school project om mensen gezonder te laten leven doormiddel van het stellen van gezondheidsdoelen.",
-        "url": "https://pad.sandersekreve.nl",
-        "imgPath": "../assets/pad.png"
-    },
-    {
-        "name": "botman.com",
-        "technologies": ["WordPress", "PHP"],
-        "description": "Ik heb gewerkt aan deze webshop voor audio en video apparatuur.",
-        "url": "https://botman.com",
-        "imgPath": "../assets/botman.png"
-    },
-    {
-        "name": "Price Checker",
-        "technologies": ["NextJS", "NextAuth.js", "NodeJS", "SQL", "Prisma", "TailwindCSS"],
-        "description": "(Mee bezig) Ik werk aan een website waar gebruikers de prijzen van producten kunnen bijhouden. Gebruikers kunnen email notificaties ontvangen zodra de prijs hun gekozen product verlaagt.",
-        "url": "https://pricetracker.sandersekreve.nl",
-        "imgPath": "../assets/pricechecker.png"
-    },
-    {
-        "name": "NFT Collection",
-        "technologies": ["React", "Solana", "Candy Machine", "TailwindCSS"],
-        "description": "(Mee bezig) Ik werk aan een web3 website waar je NFTs kan minten.",
-        "url": "",
-        "imgPath": "../assets/nft.png"
-    },
-    {
-        "name": "Jesse Inden",
-        "technologies": ["WordPress", "PHP"],
-        "description": "Een portfolio website voor Jesse Inden.",
-        "url": "https://jesseinden.com/",
-        "imgPath": "../assets/jesseinden.png"
-    },
-    {
-        "name": "Lunajoy Boutique",
-        "technologies": ["WordPress", "PHP"],
-        "description": "ik heb een webshop gemaakt voor Lunajoy boutique waar handgemaakte sieraden worden verkocht.",
-        "url": "https://lunajoyboutique.com",
-        "imgPath": "../assets/lunajoy.png"
-    }
+	{
+		"name": "Portfolio",
+		"technologies": ["ReactJS", "TailwindCSS"],
+		"description": "De website waar je nu op zit!",
+		"url": "https://sandersekreve.nl",
+		"imgPath": "../assets/sandersekreve.png"
+	},
+	{
+		"name": "ImNotUsingAI",
+		"technologies": ["NextJS", "Redis"],
+		"description": "Voor nu is dit alleen een homepagina maar binnenkort komt er een dienst voor digitale kunstenaars om hun werk te beschermen tegen AI.",
+		"url": "https://imnotusingai.com",
+		"imgPath": "../assets/imnotusingai.png"
+	},
+	{
+		"name": "AutoTheorie",
+		"technologies": ["ReactJS"],
+		"description": "Website waar je gratis auto theorie examens kunt oefenen.",
+		"url": "https://autotheorievoorniks.nl",
+		"imgPath": "../assets/gratistheorie.png"
+	},
+	{
+		"name": "Realtime Crypto",
+		"technologies": ["Python"],
+		"description": "Ik heb een python package gemaakt die crypto prijzen in real-time kan streamen via een websocket.",
+		"url": "https://github.com/SanderSita/realtime-crypto",
+		"imgPath": "../assets/realtime-crypto.png"
+	},
+	{
+		"name": "Twatter",
+		"technologies": [
+			"ReactJS",
+			"Firebase",
+			"NodeJS",
+			"Socket.io",
+			"TailwindCSS"
+		],
+		"description": "Ik heb een Twitter/X clone gemaakt voor de lol.",
+		"url": "",
+		"imgPath": "../assets/twatter.png"
+	},
+	{
+		"name": "Sync. Counter",
+		"technologies": [
+			"HTML/CSS/JS",
+			"NodeJS",
+			"Socket.io",
+			"TailwindCSS",
+			"Firebase"
+		],
+		"description": "Simpele counter die gebruikt maakt van socket.io om het aantal bij alle gebruikers live te synchroniseren",
+		"url": "",
+		"imgPath": "../assets/count.png"
+	},
+	{
+		"name": "HealthSteps",
+		"technologies": ["HTML/CSS/JS", "SQL", "Socket.io"],
+		"description": "Dit is een school project om mensen gezonder te laten leven doormiddel van het stellen van gezondheidsdoelen.",
+		"url": "",
+		"imgPath": "../assets/pad.png"
+	},
+	{
+		"name": "botman.com",
+		"technologies": ["WordPress", "PHP"],
+		"description": "Ik heb gewerkt aan deze webshop voor audio en video apparatuur.",
+		"url": "https://botman.com",
+		"imgPath": "../assets/botman.png"
+	},
+	{
+		"name": "Price Checker",
+		"technologies": [
+			"NextJS",
+			"NextAuth.js",
+			"NodeJS",
+			"SQL",
+			"Prisma",
+			"TailwindCSS"
+		],
+		"description": "Ik heb gewerkt aan een website waarop gebruikers de prijzen van producten kunnen bijhouden. Gebruikers kunnen e-mailnotificaties ontvangen zodra de prijs van hun gekozen product daalt.",
+		"url": "https://pricetracker-eight-snowy.vercel.app/",
+		"imgPath": "../assets/pricechecker.png"
+	},
+	{
+		"name": "Jesse Inden",
+		"technologies": ["WordPress", "PHP"],
+		"description": "Een portfolio website voor Jesse Inden.",
+		"url": "https://jesseinden.com/",
+		"imgPath": "../assets/jesseinden.png"
+	},
+	{
+		"name": "Lunajoy Boutique",
+		"technologies": ["WordPress", "PHP"],
+		"description": "ik heb een webshop gemaakt voor Lunajoy boutique waar handgemaakte sieraden worden verkocht.",
+		"url": "https://lunajoyboutique.com",
+		"imgPath": "../assets/lunajoy.png"
+	}
 ]
