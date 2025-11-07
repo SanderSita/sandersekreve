@@ -1,15 +1,8 @@
 [
 	{
-		"name": "Portfolio",
-		"technologies": ["ReactJS", "TailwindCSS"],
-		"description": "De website waar je nu op zit!",
-		"url": "https://sandersekreve.nl",
-		"imgPath": "../assets/sandersekreve.png"
-	},
-	{
 		"name": "ImNotUsingAI",
-		"technologies": ["NextJS", "Redis"],
-		"description": "Voor nu is dit alleen een homepagina maar binnenkort komt er een dienst voor digitale kunstenaars om hun werk te beschermen tegen AI.",
+		"technologies": ["NextJS", "Supabase"],
+		"description": "Deze website verifieert en certificeert dat digitale kunst door mensen is gemaakt, zodat kopers zeker weten dat ze geen AI-kunst kopen.",
 		"url": "https://imnotusingai.com",
 		"imgPath": "../assets/imnotusingai.png"
 	},
