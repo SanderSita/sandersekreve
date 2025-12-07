@@ -1,5 +1,12 @@
 [
 	{
+		"name": "SaaSminder",
+		"technologies": ["NextJS", "Supabase"],
+		"description": "AI chat assistant die jouw project context onthoudt.",
+		"url": "https://saasminder.com",
+		"imgPath": "../assets/saasminder.png"
+	},
+	{
 		"name": "ImNotUsingAI",
 		"technologies": ["NextJS", "Supabase"],
 		"description": "Deze website verifieert en certificeert dat digitale kunst door mensen is gemaakt, zodat kopers zeker weten dat ze geen AI-kunst kopen.",
