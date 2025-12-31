@@ -14,6 +14,13 @@
 		"imgPath": "../assets/imnotusingai.png"
 	},
 	{
+		"name": "PrijsMonitor",
+		"technologies": ["Django", "SQLite"],
+		"description": "Een tool voor webshops die automatisch prijzen van concurrenten wil bijhouden.",
+		"url": "",
+		"imgPath": "../assets/prijsmonitor.png"
+	},
+	{
 		"name": "AutoTheorie",
 		"technologies": ["ReactJS"],
 		"description": "Website waar je gratis auto theorie examens kunt oefenen.",
